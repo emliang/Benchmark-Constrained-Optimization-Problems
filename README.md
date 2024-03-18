@@ -27,7 +27,7 @@ $$
 \end{array}
 $$
 
-4. Convex Quadratically Constrained Quadratic Program (Convex-QCQP)
+3. Convex Quadratically Constrained Quadratic Program (Convex-QCQP)
 
 $$
 \begin{array}{ll}
@@ -39,7 +39,7 @@ $$
 \end{array}
 $$
 
-5. Semidefinite Programming (SDP)
+4. Semidefinite Programming (SDP)
 
 $$
 \begin{array}{ll}
@@ -50,7 +50,7 @@ $$
 \end{array}
 $$
 
-6. Joint Chance Constraints (JCC)
+5. Joint Chance Constraints (JCC)
 
 $$
 \begin{array}{ll}
