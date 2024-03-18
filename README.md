@@ -21,7 +21,7 @@ $$
 $$
 \begin{array}{ll}
 \text {minimize} & \frac{1}{2}x^TQx + q^Tx\\
-\text {subject to} & \vert\vert A_ix+b_i\vert\vert_2 \leq {C_i}^Tx+d_i, \, i=1,...,m\\
+\text {subject to} & \vert\vert A_ix+b_i\vert\vert_2 \leq {C_i}^Tx+d_i, \quad i=1,...,m\\
 & Fx = g\\
 & lb \leq x \leq ub
 \end{array}
@@ -32,9 +32,9 @@ $$
 $$
 \begin{array}{ll}
 \text {minimize} & \frac{1}{2} x^{\mathrm{T}} P_0 x+q_0^{\mathrm{T}} x \\
-\text {subject to} & \frac{1}{2} x^{\mathrm{T}} P_i x+q_i^{\mathrm{T}} x+r_i \leq 0 \quad \text { for } i=1, \ldots, m, \\
-& A x=b,\\
-& P_i \succeq 0\;for\;i=0,...,m\\
+\text {subject to} & \frac{1}{2} x^{\mathrm{T}} P_i x+q_i^{\mathrm{T}} x+r_i \leq 0, \quad i=1,..., m, \\
+& A x=b\\
+& P_i \succeq 0, \quad i=0,...,m\\
 & lb \leq x \leq ub
 \end{array}
 $$
@@ -44,7 +44,7 @@ $$
 $$
 \begin{array}{ll}
 \text {minimize} & \textbf{tr}(CX)\\
-\text {subject to} & \textbf{tr}(A_iX) = b_i,\;i=1,...,p\\
+\text {subject to} & \textbf{tr}(A_iX) = b_i, \quad i=1,...,p\\
 & X \succeq 0\\
 & lb \leq X \leq ub
 \end{array}
@@ -55,9 +55,9 @@ $$
 $$
 \begin{array}{ll}
 \text {minimize} & p^Tx\\
-\text {subject to} & Ax \geq b+c_i,\;i=1,...,p\\
+\text {subject to} & Ax \geq b+c_i, \quad i=1,...,p\\
 & Gx \leq h\\
-& lb \leq X \leq ub
+& lb \leq x \leq ub
 \end{array}
 $$
 
