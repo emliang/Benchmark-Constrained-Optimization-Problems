@@ -100,11 +100,11 @@ $$
 $$
 \begin{array}{ll}
     {\min\limits_{p_{g} , q_{g} , v}}\quad & p_{g}^{\mathsf{T}} Q p_{g}+b^{\mathsf{T}} p_{g} \\
-   %   \text{s.t.} \quad & p_{g}^{\min } \leq p_{g} \leq p_{g}^{\max },\\
-   %  & q_{g}^{\min } \leq q_{g} \leq q_{g}^{\max }, \\
-   %  & v^{\min } \leq|v| \leq v^{\max }, \\
-   %  & |v_i(\bar{v}_i-\bar{v}_j)\bar{w}_{ij}|\le S_{ij}^{\rm max}, \quad \forall (i,j) \in \mathcal{E},\\
-   % & (p_{g}-p_{d})+(q_{g}-q_{d}) i ={\rm diag}(v) \bar{W} \bar{v}, \quad \forall i \in \mathcal{N}
+     \text{s.t.} \quad & p_{g}^{\min } \leq p_{g} \leq p_{g}^{\max },\\
+    & q_{g}^{\min } \leq q_{g} \leq q_{g}^{\max }, \\
+    & v^{\min } \leq|v| \leq v^{\max }, \\
+    & |v_i(\bar{v}_i-\bar{v}_j)\bar{w}_{ij}|\le S_{ij}^{\rm max}, \quad \forall (i,j) \in \mathcal{E},\\
+   & (p_{g}-p_{d})+(q_{g}-q_{d}) i ={\rm diag}(v) \bar{W} \bar{v}, \quad \forall i \in \mathcal{N}
 \end{array}
 $$
 
