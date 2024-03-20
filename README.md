@@ -59,6 +59,7 @@ $$
 ### Combinatorial cases included:
 
 - [ ] Maximum clique
+
 $$
 \begin{array}{ll}
 \max\limits_x \; & \sum_{i\in V}x_i \\
@@ -68,6 +69,7 @@ $$
 $$
 
 - [ ] Maximum independent set
+
 $$
 \begin{array}{ll}
 \max\limits_x \;  & \sum_{i\in V} x_i, \; \\
@@ -77,6 +79,7 @@ $$
 $$
 
 - [ ] Maximum  cut
+  
 $$
 \begin{array}{ll}
 \max\limits_x & \sum_{(i,j)\in E}\frac{1-x_ix_j}{2}\;, \\
@@ -130,6 +133,7 @@ $$
 $$
 
 - [ ] Wireless Power Control
+
 $$
 \begin{array}{ll}
 \max\limits_{p\in\mathbb{R}^K} \quad & \sum_{i=1}^K \alpha_i \log \left(1+\frac{\left|h_{i i}\right|^2 p_i}{\sum_{j \neq i}\left|h_{i j}\right|^2 p_j+\sigma_i^2}\right) \\
