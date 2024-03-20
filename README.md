@@ -104,7 +104,7 @@ $$
     & q_{g}^{\min } \leq q_{g} \leq q_{g}^{\max }, \\
     & v^{\min } \leq|v| \leq v^{\max }, \\
     & |v_i(\bar{v}_i-\bar{v}_j)\bar{w}_{ij}|\le S_{ij}^{\rm max}, \quad \forall (i,j) \in \mathcal{E},\\
-   & \left(p_{g}-p_{d}\right)+\left(q_{g}-q_{d}\right) i ={\rm diag}(v) \bar{W} \bar{v}, \quad \forall i \in \mathcal{N}
+   & (p_{g}-p_{d})+(q_{g}-q_{d}) i ={\rm diag}(v) \bar{W} \bar{v}, \quad \forall i \in \mathcal{N}
 \end{array}
 $$
 
