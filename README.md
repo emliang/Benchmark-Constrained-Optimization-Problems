@@ -99,8 +99,8 @@ $$
 
 $$
 \begin{array}{ll}
-    \underset{p_{g} , q_{g} , v}{{\rm min}}\quad & p_{g}^{\mathsf{T}} Q p_{g}+b^{\mathsf{T}} p_{g} \\
-     \text{subject to} \quad & p_{g}^{\min } \leq p_{g} \leq p_{g}^{\max },\\
+    {\min\limits_{p_{g} , q_{g} , v}}\quad & p_{g}^{\mathsf{T}} Q p_{g}+b^{\mathsf{T}} p_{g} \\
+     \text{s.t.} \quad & p_{g}^{\min } \leq p_{g} \leq p_{g}^{\max },\\
     & q_{g}^{\min } \leq q_{g} \leq q_{g}^{\max }, \\
     & v^{\min } \leq|v| \leq v^{\max }, \\
     & |v_i(\bar{v}_i-\bar{v}_j)\bar{w}_{ij}|\le S_{ij}^{\rm max}, \quad \forall (i,j) \in \mathcal{E},\\
@@ -114,7 +114,7 @@ $$
 $$
 \begin{array}{ll}
   \min\limits_{x\in\mathbb{R}^n} \quad & {c}^{\mathsf{T}} {x} \\ 
-     \text{subject to} \quad & {\rm \bf Prob}(A {x} \ge \theta + \omega) \ge 1- \delta \\
+     \text{s.t.} \quad & {\rm \bf Prob}(A {x} \ge \theta + \omega) \ge 1- \delta \\
     & G{x} \le {h},\;  {x}^{\rm min} \le {x} \le {x}^{\rm max},
 \end{array}
 $$
